@@ -10,7 +10,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>24</maven.compiler.source>
         <maven.compiler.target>24</maven.compiler.target>
-        <github.dir>${env.HOME}/github</github.dir>
+        <github.dir>${env.HOME}/Documents</github.dir>
         <beehive.spirv.toolkit.dir>${github.dir}/beehive-spirv-toolkit/</beehive.spirv.toolkit.dir>
         <babylon.dir>${github.dir}/${babylon.repo.name}</babylon.dir>
         <hat.dir>${babylon.dir}/hat</hat.dir>

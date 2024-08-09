@@ -46,7 +46,7 @@ else
   exit 1
 fi
 
-export JAVA_HOME=${PWD}/../build/${ostype}-${archtype}-server-release/jdk
+export JAVA_HOME=${PWD}/../build/${ostype}-${archtype}/jdk
 echo "exporting JAVA_HOME=${JAVA_HOME}"
 if echo ${PATH} | grep ${JAVA_HOME} >/dev/null ;then
    echo 'path already contains ${JAVA_HOME}/bin'

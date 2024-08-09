@@ -23,10 +23,10 @@
  * questions.
  */
 
-#include "ptx_backend.h"
+//#include "ptx_backend.h"
 
 int main(int argc, char **argv) {
-    PtxBackend ptxBackend;
-    ptxBackend.info();
+//    PtxBackend ptxBackend;
+//    ptxBackend.info();
 }
 
